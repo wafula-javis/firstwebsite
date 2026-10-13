@@ -1,0 +1,97 @@
+#jina{
+    font-size:45px;
+    font-family:'Times New Roman', Times, serif;
+    text-align:center;
+    color:rgb(239, 235, 235);
+    flex-direction: row;
+
+}
+body{
+    margin:0;
+}
+.javis{
+    background-color:rgb(14, 123, 178);
+    margin:0%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border-width:600px;
+
+}
+#linki{
+    display:flex;
+    flex-direction: row reverse;
+    justify-content:center;
+    gap:12px;
+    list-style-type: none;
+}
+.wewe:hover{
+    background-color: rgb(176, 184, 181);
+    transition-duration: 0.3s;
+}
+#tito{
+    text-align:center;
+}
+img{
+    width:250px;
+    height:250px;
+    border:20px 20px;
+    border-color: aqua;
+    border-width:3px;
+    border-radius:150PX;
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3px;
+    width: 300px;
+}
+
+
+#butoni:hover{
+    color: rgb(33, 72, 72);
+    
+}
+.about{
+    margin-left: 4px;
+    text-align:left;
+    font-family:'Times New Roman', Times, serif;
+}
+.paragraph{
+    margin-left: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:medium;
+}
+.kitemeo{
+    background-color: rgb(196, 236, 236);
+}
+.kifungo{
+    padding: 14px 32px;     
+    border-radius: 8px;     
+    border: none;            
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;   
+    margin-left:500px;  
+}
+.kifung{
+    flex-direction:left;
+    padding: 14px 32px;     
+    border-radius: 8px;     
+    border: none;           
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;     
+}
+.vifungo{
+    align-items: center;
+    display:flex;
+    flex-direction:row-reverse;
+    padding: 14px 32px;     
+    border-radius: 8px;     
+    border: none;            
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+legend{
+    color:blue;
+}  

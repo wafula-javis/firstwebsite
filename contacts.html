@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <nav class="javis">
+        <ul id="linki">
+             <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="http://127.0.0.1:5501/index.html#projects">Projects</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+        </ul>
+        <link rel="stylesheet" href="style.css">
+    </nav>
+</head>
+
+<body class="kitemeo">
+    <h2>Contact Me</h2>
+    <form>
+        <fieldset>
+            <legend>Your details</legend>
+            <div>
+                <label for="Full-name">Full-name</label>
+                <input type="text">
+            </div><br>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" placeholder="@gmail.com">
+            </div><br>
+            <div>
+                <label for="phone number">Phone No.</label>
+                <input type="" placeholder="+254">
+            </div><br>
+            <div>
+                <label for="pdate">preffered meeting date:</label>
+                <input type="date" placeholder="dd/mm/yy">
+            </div><br>
+            <div>
+                <label for="lname">Last name</label>
+                <input type="text">
+            </div>
+            </filedset>
+            <fieldset>
+                <legend>Your Message</legend>
+
+                <p>
+                    <label for="reason">Reason for contacting me:</label>
+                    <br>
+
+                    <select id="reason" name="reason" required>
+                        <option value="">Choose a reason</option>
+                        <option value="collaboration">Collaboration</option>
+                        <option value="learning">Learning together</option>
+                        <option value="feedback">Portfolio feedback</option>
+                    </select>
+                </p>
+
+                <fieldset>
+                    <legend>Preferred contact method</legend>
+
+                    <input type="radio" id="contact-email" name="contactMethod" value="email" checked>
+                    <label for="contact-email">Email</label>
+
+                    <input type="radio" id="contact-phone" name="contactMethod" value="phone">
+                    <label for="contact-phone">Phone</label>
+                </fieldset>
+
+                <p>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="6" cols="30" placeholder="Write your message here"
+                        minlength="10" maxlength="1000" required></textarea>
+                </p>
+
+                <p>
+                    <input type="checkbox" id="reply-request" name="replyRequested" value="yes">
+                    <label for="reply-request">
+                        I would like a reply.
+                    </label>
+                </p>
+                <div>
+                    <button type="reset">Clear Form</button>
+                </div>
+                <div><br>
+                    <button type="submit">Submit Form</button>
+                </div>
+
+        
+            </fieldset>
+        </fieldset>    
+    </form><br><br>
+    <div>
+    <button class="vifungo"><a href="https://www.linkedin.com/">LinkedIn</button>
+     </div><br>
+    <div> 
+    <button class="vifungo"><a href="https://x.com/">Twitter</button> 
+    </div><br>
+    <button class="vifungo"><a href="https://www.instagram.com/">Instagram</button> 
+    
+
+</body>
+<!-- FOOTER: information about the page -->
+    <footer>
+        <p>
+            <small>&copy; 2026 Javis.</small>
+        </p>
+
+</html>
